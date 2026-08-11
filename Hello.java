@@ -1,6 +1,6 @@
 class Hello {
 public static void main(String[] args){
-  String name=System.getenv("USERNAME-VAR");
+  String name=System.getenv("USERNAME_VAR");
   if(name!=null){
     System.out.println("WELCOME TO DEVOPS LAB"+" "+name);
   }
